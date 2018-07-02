@@ -205,6 +205,25 @@
   .penguin * {
     position: absolute;
   }
+
+  .ball { 
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #0C00D2,
+      #BF0054
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left: 20%;
+  }
+  #ball2 {
+    left: 65%;
+  }
   body{
     text-align: center
   }
@@ -250,4 +269,6 @@
     <div class="beak-top"></div>
     <div class="beak-bottom"></div>
   </div>
+  <div class="ball" id= "ball1"></div>
+<div class="ball" id= "ball2"></div>
 </div>
