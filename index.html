@@ -6,25 +6,58 @@
           <title>lost count oops</title>
           <link rel="stylesheet" href="style.css">
           <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | PONG</title>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/PONG.json");
-    </script>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+          <title>Unity WebGL Player | PONG 2</title>
+          <link rel="shortcut icon" href="TemplateData/favicon.ico">
+          <link rel="stylesheet" href="TemplateData/style.css">
+          <script src="TemplateData/UnityProgress.js"></script>  
+          <script src="Build/UnityLoader.js"></script>
+          <script>
+            var gameInstance = UnityLoader.instantiate("gameContainer", "Build/pong.json", {onProgress: UnityProgress});
+          </script>
       </head>
       
       <body style="color:blueviolet">
           <h1>uwu</h1>
           <p>my name is <a href="https://twitter.com/Yabo_San">kevin</a> and <a href="https://www.instagram.com/yabo_san/">i</a> make bad <a href="https://soundcloud.com/yabo-san">music</a></p>
           brb gotta actually learn web development so my mom's tax business has a website lmfao
-          <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
       </body>
       <div class="ball" id= "ball1"></div>
 <div class="ball" id= "ball2"></div>
       <p><iframe width="25%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/532301649&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></p>
+      <div class="webgl-content">
+        <div id="gameContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title">PONG 2</div>
+        </div>
       </div>
     </body>
       </html>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+
+</div>
 
 
