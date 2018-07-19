@@ -1,0 +1,14 @@
+
+  body {
+    background: linear-gradient(35deg,#CCFFFF,#FFCCCC );
+  }
+  
+  body{
+    text-align: center
+  }
+  h1{
+    font-size: 150px;
+  }
+  p{
+    font-size: 70;
+  }
