@@ -21,11 +21,12 @@ body {
   }
   
   body{
-    text-align: center
+    text-align: center;
+    color: blueviolet;
   }
   h1{
     font-size: 150px;
   }
   p{
-    font-size: 70;
+    font-size: 70px;
   }
