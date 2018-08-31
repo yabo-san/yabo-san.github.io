@@ -16,16 +16,17 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
 body {
     background: linear-gradient(35deg,#CCFFFF,#FFCCCC );
-  }
-  
-  body{
     text-align: center;
     color: blueviolet;
   }
+  
+
   h1{
-    font-size: 150px;
+    font-size: 120px;
+    
   }
   p{
     font-size: 70px;
