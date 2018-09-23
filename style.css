@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(35deg,#CCFFFF,#FFCCCC );
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+  }
+ 
+  h1{
+   font-size: 100px;
+   margin-top: 10px;
+   font-size: 120px;
+   padding: 50px;
+   
+ }
+ p{
+    font-size: 70px;
+  }
