@@ -1,35 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-  <title>Kevin Zelaya</title>
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Unity WebGL Player | PONG</title>
-  <link rel="shortcut icon" href="icons/cd_audio_cd_a.ico">
-  <link rel="stylesheet" href="TemplateData/style.css">
-  <script src="TemplateData/UnityProgress.js"></script>
-  <script src="Build/UnityLoader.js"></script>
-  <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/bob.json", { onProgress: UnityProgress });
-  </script>
-</head>
-
-<body>
-  <div class="webgl-content">
-      <h1><br>kevin zelaya</h1>  
-    <p>my name is <a href="https://twitter.com/Yabo_San">kevin</a> and <a href="https://www.instagram.com/yabo_san/">i</a> make bad <a href="https://soundcloud.com/yabo-san">music</a></p>
-      here's pong btw
-    <div id="gameContainer" style="width: 1000px; height: 600px"></div>
-    <div class="footer">
-
-      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-      <div class="title">PONG</div>
-    </div>
-    <p>
-      <iframe width="25%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/532301649&color=%23b118c7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    </p>
-  </div>
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | PONG</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/PONG.json");
+    </script>
+  </head>
+  <body>
+    <div id="gameContainer" style="width: 960px; height: 600px; margin: auto"></div>
+  </body>
 </html>
